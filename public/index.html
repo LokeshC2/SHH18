@@ -22,14 +22,13 @@
         </div>
         <div>
           <input type="file" onChange='handleFileUpload()' />
-          <input type="submit" value="Submit" onClick={submitImage} />
+          <input type="submit" value="Submit" onClick='submitImage()' />
         </div>
       </div>
       <div className="right">
         <h2>Prescription details</h2>
-        <p id='Details'>
-          {output ? output : "Prescription details will be displayed here"}
-        </p>
+        <div id='Details'>
+        </div>
       </div>
     </div>
   </div>

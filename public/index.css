@@ -46,3 +46,15 @@ header {
   justify-content: 'center';
   color: 'white';
 }
+
+#image {
+  width: '50%';
+  height: '50%';
+}
+
+.preview {
+  display: 'flex';
+  border: '1px solid #000';
+  align-items: 'center';
+  justify-content: 'center';
+}
