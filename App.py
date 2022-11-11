@@ -7,15 +7,9 @@ def do_some_work (x):
     with open(x, 'r') as f:
         r = f.read()
         print(r)
-    return r
+    return "File recieved"
 
-app = Flask(__name__, static_url_path='/static', static_folder='static', template_folder="templates")
-
-# return file by name
-@app.get('/')
-def index():
-    return render_template('index.html')
-
+app = Flask(__name__)
 
 @app.route('/api', methods=['POST'])
 def upload():
