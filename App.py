@@ -9,7 +9,7 @@ def do_some_work (x):
         print(r)
     return r
 
-app = Flask(__name__, static_folder='static', static_url_path='')
+app = Flask(__name__, static_folder='public', template_folder='public')
 
 @app.route('/')
 def index():
@@ -34,4 +34,4 @@ def upload():
     return result
 
 if __name__ == '__main__':
-    app.run(debug=True, port=5000)
+    app.run(port=5000)
