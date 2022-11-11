@@ -1,5 +1,5 @@
 import os
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, send_from_directory, url_for
 import tempfile
 
 #dummmy function to test the server
@@ -9,11 +9,13 @@ def do_some_work (x):
         print(r)
     return r
 
-app = Flask(__name__, static_folder='public', template_folder='public')
+app = Flask(__name__, static_url_path='/static', static_folder='static', template_folder="templates")
 
-@app.route('/')
+# return file by name
+@app.get('/')
 def index():
     return render_template('index.html')
+
 
 @app.route('/api', methods=['POST'])
 def upload():
@@ -34,4 +36,4 @@ def upload():
     return result
 
 if __name__ == '__main__':
-    app.run(port=5000)
+    app.run(port=5000, debug=True)
