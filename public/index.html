@@ -4,8 +4,9 @@
 <head>
   <meta charset="UTF-8" />
   <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <link rel="stylesheet" href="index.css"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Vite + React + TS</title>
+  <title>HelpOut</title>
 </head>
 
 <body>
@@ -21,11 +22,12 @@
           <img alt='preview...' id='image' />
         </div>
         <div>
-          <input type="file" onChange='handleFileUpload()' />
-          <input type="submit" value="Submit" onClick='submitImage()' />
+          
+          <input class="button" type="file" onChange='handleFileUpload()' />
+          <input class="button1" type="submit" value="Submit" onClick='submitImage()' />
         </div>
       </div>
-      <div className="right">
+      <div class="right">
         <h2>Prescription details</h2>
         <div id='Details'>
         </div>
