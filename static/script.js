@@ -2,7 +2,7 @@ function setImageUri(value) {
     localStorage.setItem('image', value)
 
     const image = document.getElementById("image")
-    if (value) { image.setAttribute('src', value) }
+    if (value) { image.src = value }
     else { image.removeAttribute('src') }
 }
 
