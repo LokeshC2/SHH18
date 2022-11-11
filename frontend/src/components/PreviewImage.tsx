@@ -20,9 +20,7 @@ const styles: { [key: string]: React.CSSProperties } = {
 function PreviewImage({ imagePath }: Props) {
   return (
     <>
-      <div style={styles.preview}>
-        <img src={imagePath} alt='preview...'  style={styles.image} />
-      </div>
+      
     </>
   )
 }

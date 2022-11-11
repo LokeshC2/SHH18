@@ -1,0 +1,48 @@
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: none;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+#root {
+  margin: 0;
+  text-align: center;
+}
+.App {
+  width: 100%;
+}
+
+.App-body {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr 1fr;
+  align-items: center;
+  justify-content: space-around;
+}
+
+
+header {
+  background-color: '#282c34';
+  display: 'flex';
+  flex-grow: '1';
+  flex-direction: 'column';
+  align-items: 'center';
+  justify-content: 'center';
+  color: 'white';
+}

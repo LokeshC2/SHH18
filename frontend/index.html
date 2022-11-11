@@ -1,13 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React + TS</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite + React + TS</title>
+</head>
+
+<body>
+  <div id="root">
+    <header>
+      <h1>Prescription Scanner</h1>
+      <h2>SHH18 - Team HelpOut</h2>
+    </header>
+    <div class="App-body">
+      <div class="left">
+        <h2>Upload a prescription</h2>
+        <div class='preview'>
+          <img alt='preview...' id='image' />
+        </div>
+        <div>
+          <input type="file" onChange='handleFileUpload()' />
+          <input type="submit" value="Submit" onClick={submitImage} />
+        </div>
+      </div>
+      <div className="right">
+        <h2>Prescription details</h2>
+        <p id='Details'>
+          {output ? output : "Prescription details will be displayed here"}
+        </p>
+      </div>
+    </div>
+  </div>
+  <script src="/script.js"></script>
+</body>
+
 </html>
