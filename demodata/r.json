@@ -1,0 +1,50 @@
+{
+    "name": "Ecosprin 75 Tablet",
+    "price": "₹5",
+    "composition": "USV Ltd",
+    "description": "Ecosprin 75 Tablet is an antiplatelet medicine used to treat and prevent heart attacks, strokes, and heart-related chest pain (angina). It helps to prevent the formation of blood clots in your blood vessels. It is a very widely used medicine for heart protection.",
+    "uses": [
+        "Prevention of Angina (heart-related chest pain)",
+        "Treatment and prevention of Heart attack",
+        "Treatment and prevention of Stroke"
+    ],
+    "side-effects": [
+        "Heartburn",
+        "Increased bleeding tendency",
+        "Nausea",
+        "Upset stomach",
+        "Vomiting"
+    ],
+    "alternatives": [
+        {
+            "name": "Sprin 75mg Tablet",
+            "price": "₹0.21/tablet",
+            "manufacturer": "Alkem Laboratories Ltd",
+            "diff": "43% cheaper"
+        },
+        {
+            "name": "CV Sprin 75mg Tablet",
+            "price": "₹0.22/tablet",
+            "manufacturer": "Cadila Pharmaceuticals Ltd",
+            "diff": "38% cheaper"
+        },
+        {
+            "name": "Aspidot 75mg Tablet",
+            "price": "₹0.24/tablet",
+            "manufacturer": "Three Dots Lifescience",
+            "diff": "32% cheaper"
+        },
+        {
+            "name": "ASA 75mg Tablet",
+            "price": "₹0.26/tablet",
+            "manufacturer": "Zydus Cadila",
+            "diff": "26% cheaper"
+        },
+        {
+            "name": "E Prin 75mg Tablet",
+            "price": "₹0.27/tablet",
+            "manufacturer": "Torrent Pharmaceuticals Ltd",
+            "diff": "26% cheaper"
+        }
+    ]
+}
