@@ -1,7 +1,7 @@
 import os
 from flask import Flask, render_template, request
 import tempfile
-from .scraper import get_med, get_med_details
+# from scraper import get_med, get_med_details
 
 #dummmy function to test the server
 def do_some_work (x):
@@ -34,21 +34,21 @@ def upload():
 
     return result
 
-@app.route('/api/medsearch', methods=['POST'])
-def medsearch():
-    data = request.json['body']
-    print(data)
-    elements, links, single = get_med(data['name'], data['filters'])
-    print(f"{elements=}")
-    print(f"{links=}")
-    print(f"{single=}")
-    return elements, links
+# @app.route('/api/medsearch', methods=['POST'])
+# def medsearch():
+#     data = request.json['body']
+#     print(data)
+#     elements, links, single = get_med(data['name'], data['filters'])
+#     print(f"{elements=}")
+#     print(f"{links=}")
+#     print(f"{single=}")
+#     return elements, links
 
-@app.route('/api/meddetails', methods=['POST'])
-def meddetails():
-    data = request.json['body']
-    print(data)
-    return get_med_details(data['link'])
+# @app.route('/api/meddetails', methods=['POST'])
+# def meddetails():
+#     data = request.json['body']
+#     print(data)
+#     return get_med_details(data['link'])
 
 if __name__ == '__main__':
     app.run(debug=True, port=5000)
