@@ -1,0 +1,29 @@
+{
+    "name": "Omeprazole Gastro-Resistant capsules IP 20 mg ",
+    "tab-wt": "20 capsules of 20 mg",
+    "price": "Rs. 49.18/1 strip",
+    "composition": "Omeprazole IP 20mg is a medicine that reduces the amount of acid produced in your stomach. It helps treat acid-related diseases of the stomach and intestine such as heartburn, acid reflux, and peptic ulcer disease.",
+    "uses": ["Omeprazole IP 20mg Capsule is also used to prevent stomach ulcers and acidity that may be seen with the prolonged use of painkillers."],
+    "side-effects": "Diarrhea, Flatulence, Headache, Nausea, Stomach pain, Vomiting",
+    "alternatives": [
+      {
+        "name": "Cool Zone 20mg Capsule",
+        "price": "Rs. 32.45/1 Strip",
+        "manufacturer": "Minova Life Sciences Pvt Ltd",
+        "diff": "96.87% cheaper"
+      },
+      {
+        "name": "Omez-Dsr 20mg Capsule",
+        "price": "Rs. 156.2/Strip",
+        "manufacturer": "Dr Reddy's Laboratories Ltd",
+        "diff": "81.8% cheaper"
+      },
+      {
+        "name": "Lopra 20mg Capsule",
+        "price": "Rs. 80/Strip",
+        "manufacturer": "Arvincare Pharma",
+        "diff": "87.62% cheaper"
+      }
+    ]
+  }
+  
