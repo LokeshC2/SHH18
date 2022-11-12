@@ -1,0 +1,29 @@
+{
+    "name": "Povidone Iodine Ointment ",
+    "tab-wt": "500ml",
+    "price": "Rs. 71/ 500ml ",
+    "composition": "Povidone 5% Ointment is an antiseptic and disinfectant agent.",
+    "uses": ["Povidone 5% Ointment is used for the treatment and prevention of infections in wounds and cuts."],
+    "side-effects": "Most side effects do not require any medical attention and disappear as your body adjusts to the medicine. ",
+    "alternatives": [
+      {
+        "name": "Povikem topical Solution 5% ",
+        "price": "Rs. 510.14/2000ml",
+        "manufacturer": "Alkem Laboratories Ltd",
+        "diff": "96.98% cheaper"
+      },
+      {
+        "name": "Betadine 5 % Solution",
+        "price": "Rs. 217/500ml",
+        "manufacturer": "Win-Medicare Pvt Ltd",
+        "diff": "96.51% cheaper"
+      },
+      {
+        "name": "Intadine 5% Ointment",
+        "price": "Rs. 47/20ml",
+        "manufacturer": "Intas Pharmaceuticals Ltd",
+        "diff": "95.89% cheaper"
+      }
+    ]
+  }
+  

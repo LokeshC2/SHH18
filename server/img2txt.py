@@ -10,8 +10,7 @@ os.chdir(os.path.dirname(__file__))
 
 datadir = '../demodata'
 
-for i,image in enumerate(os.listdir(datadir)):
-    if i!=1: continue
+def process_image(image):
     im = Image.open(datadir+'/'+image)
     s = pytesseract.image_to_string(im), "+".join(langs)
-    print(s)
+    return s

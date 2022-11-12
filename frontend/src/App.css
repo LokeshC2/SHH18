@@ -1,16 +1,9 @@
-#root {
-    margin: 0;
-    text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  /* background-color: #febaad; */
 }
-.App {
-    width: 100%;
-}
-
-.App-body {
-    margin: 0;
-    padding: 0;
-    display: grid;
-    grid-template-columns: 1fr 2fr 2fr 1fr;
-    align-items: center;
-    justify-content: space-around;
+.app {
+  min-height: 320px;
+  min-height: 100vh;
 }

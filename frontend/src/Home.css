@@ -1,0 +1,29 @@
+h3 {
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.homm {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.button,
+.button1 {
+  font-size: 15px;
+  padding: 5px;
+  background-color: white;
+  color: black;
+  border: 1.5px solid #111;
+  border-radius: 9px;
+  margin: 10px;
+}
+.button1 {
+  margin-left: 20px;
+}
+.button:hover,
+.button1:hover {
+  background-color: #333333;
+  color: #fff;
+}

@@ -1,0 +1,28 @@
+{
+  "name": "DR Best Alprazolam 0.25 Tablet ",
+  "tab-wt": "0.25 g",
+  "price": "Rs. 1/Tablet",
+  "description": "DR Best Alprazolam 0.25 Tablet belongs to a class of medicines known as benzodiazepines.",
+  "uses": ["Treatment of Anxiety", "Treatment of panic disorder"],
+  "side-effects": "Most side effects do not require any medical attention and disappear as your body adjusts to the medicine. Most common side effects are Lightheadedness and Drowsiness",
+  "alternatives": [
+    {
+      "name": "Alltop 0.25mg Tablet",
+      "price": "Rs. 0.18/Tablet",
+      "manufacturer": "Ind Swift Laboratories Ltd",
+      "diff": "82% cheaper"
+    },
+    {
+      "name": "Alprasafe 0.25mg Tablet",
+      "price": "Rs. 0.25/Tablet",
+      "manufacturer": "Zydus Healthcare Limited",
+      "diff": "75% cheaper"
+    },
+    {
+      "name": "Nindra 0.25mg Tablet",
+      "price": "Rs. 0.33/Tablet",
+      "manufacturer": "Zydus Healthcare Limited",
+      "diff": "67% cheaper"
+    }
+  ]
+}

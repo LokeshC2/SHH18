@@ -1,0 +1,29 @@
+{
+    "name": "Tramadol Injuction ",
+    "tab-wt": "50mg",
+    "price": "Rs. 5/1ml",
+    "composition": "Tramadol is an opioid analgesic (pain reliever) which works by blocking transmission of pain signals to the brain to lower pain perception.",
+    "uses": ["Tramadol is used for moderate to severe pain"],
+    "side-effects": "Most side effects are Headach, Dizziness, Sleepiness, Vomiting, Nausea, Constipation",
+    "alternatives": [
+      {
+        "name": "Tramabax injuction 50mg ",
+        "price": "Rs. 29.9/1ml",
+        "manufacturer": "Ranbaxy",
+        "diff": "83.28% cheaper"
+      },
+      {
+        "name": "Contramal injuction 50mg",
+        "price": "Rs. 27.63/1ml",
+        "manufacturer": "AHPL",
+        "diff": "81.9% cheaper"
+      },
+      {
+        "name": "Trectadol injuction 50mg",
+        "price": "Rs. 27/1ml",
+        "manufacturer": "Health Biotech",
+        "diff": "81.48% cheaper"
+      }
+    ]
+  }
+  

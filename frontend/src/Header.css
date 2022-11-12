@@ -1,0 +1,20 @@
+.header {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bold;
+  align-items: center;
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+h1 {
+  font-size: 40px;
+  text-align: center;
+  padding: 10px;
+}
+h2 {
+  font-size: 30px;
+  text-align: center;
+}
